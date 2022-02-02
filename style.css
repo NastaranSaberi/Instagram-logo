@@ -1,0 +1,53 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;  
+} 
+  
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    position: relative;
+    top:200px;
+
+}  
+
+.instagram_colorful {  
+    width: 400px;  
+    height: 400px;  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+    border-radius: 60px;  
+    display: grid;  
+    place-items: center;  
+} 
+
+.instagram_white {
+    width: 300px;  
+    height: 300px;  
+    border: 25px solid #fff;  
+    border-radius: 50px;  
+    display: grid;  
+    place-items: center;  
+    position: relative;
+}  
+ 
+.circle{  
+    width: 170px;  
+    height: 170px;  
+    border: 25px solid #fff;  
+    border-radius: 50%;  
+    background: transparent;  
+    position: absolute;
+}  
+
+.point{
+    width: 25px;
+    height: 25px;  
+    border: 10px solid #fff;
+    border-radius: 50%;  
+    background: #fff;  
+    position: absolute;  
+    top: 12px;  
+    right: 15px;  
+} 
